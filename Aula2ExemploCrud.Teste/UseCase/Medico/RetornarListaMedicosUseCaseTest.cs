@@ -87,7 +87,7 @@ namespace Aula2ExemploCrud.Teste.UseCase.Medico
             _repositorioMedicos.Setup(repositorio => repositorio.Get()).Throws(new Exception());
 
       
-            response.msg.Add("Erro ao pesquisar o médico!");
+            response.msg.Add("Erro ao listar os médicos!");
 
             //Act
             //Chamar as funções
